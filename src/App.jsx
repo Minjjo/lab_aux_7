@@ -1,14 +1,10 @@
 import './App.css'
-import { WapperList } from './components/WapperList'
-import { List } from './components/List'
+import { Button } from './components/Button'
 function App() {
   return (
     <>
-    <WapperList>
-      <List/>
-    </WapperList>  
+      <Button/>
     </>
-    
   )
 }
 export default App
